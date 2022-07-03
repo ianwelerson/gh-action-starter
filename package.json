@@ -5,7 +5,9 @@
   "main": "./dist/index.ts",
   "scripts": {
     "build": "npx tsc",
-    "dist": "npx ncc build ./src/main.ts"
+    "dist": "npx ncc build ./src/main.ts",
+    "lint:check": "eslint \"**/*.ts\" --ignore-pattern node_modules/",
+    "lint:fix": "npm run lint:check -- --fix"
   },
   "repository": {
     "type": "git",
