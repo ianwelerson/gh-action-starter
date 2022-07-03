@@ -1,0 +1,13 @@
+name: pr-label-release
+description: Use the Pull Request data to generate a new release.
+author: Ian Welerson
+branding:
+  icon: git-merge
+  color: red
+inputs:
+  github-token:
+    description: github token
+    default: ${{ github.token }}
+runs:
+  using: node16
+  main: dist/index.js
