@@ -7,7 +7,7 @@
 /************************************************************************/
 var __webpack_exports__ = {};
 
-console.log('Hello GitHub Actions');
+console.log('Hello GitHub Actions with Husky');
 
 module.exports = __webpack_exports__;
 /******/ })()
