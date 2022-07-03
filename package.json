@@ -1,0 +1,24 @@
+{
+  "name": "gh-action-pr-label-release",
+  "version": "1.0.0",
+  "description": "Release by Pull Request label",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ianwelerson/gh-action-pr-label-release.git"
+  },
+  "keywords": [
+    "github",
+    "github",
+    "action"
+  ],
+  "author": "Ian Welerson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ianwelerson/gh-action-pr-label-release/issues"
+  },
+  "homepage": "https://github.com/ianwelerson/gh-action-pr-label-release#readme"
+}
