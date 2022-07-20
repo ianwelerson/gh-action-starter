@@ -1,4 +1,4 @@
-name: pr-label-release
+name: 'PR Label Release'
 description: Use the Pull Request data to generate a new release.
 author: Ian Welerson
 branding:
@@ -7,7 +7,8 @@ branding:
 inputs:
   github-token:
     description: github token
+    required: false
     default: ${{ github.token }}
 runs:
-  using: node16
-  main: dist/index.js
+  using: 'node16'
+  main: 'dist/index.js'
