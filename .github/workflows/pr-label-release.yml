@@ -2,8 +2,8 @@ name: 'PR Label Release'
 
 on:
   pull_request:
-    type: [closed]
-    branches:    
+    types: [closed]
+    branches:
       - develop
 
 jobs:
