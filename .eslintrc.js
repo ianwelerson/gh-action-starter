@@ -17,6 +17,10 @@ module.exports = {
     '@typescript-eslint'
   ],
   rules: {
+    '@typescript-eslint/no-require-imports': 'off',
+    '@typescript-eslint/no-explicit-any': 'off',
+    '@typescript-eslint/no-var-requires': 'off',
+    'new-cap': 'off'
   },
   ignorePatterns: ['dist/*']
 }
