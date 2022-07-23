@@ -1,5 +1,5 @@
-name: 'PR Label Release'
-description: Use the Pull Request data to generate a new release.
+name: 'GitHub Action Template'
+description: Just a template for your new GitHub Action
 author: Ian Welerson
 branding:
   icon: git-merge

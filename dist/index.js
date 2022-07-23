@@ -8865,9 +8865,9 @@ Object.defineProperty(exports, "__esModule", ({ value: true }));
 const core = __importStar(__nccwpck_require__(2186));
 const github = __importStar(__nccwpck_require__(5438));
 try {
-    // const githubToken = core.getInput('github-token')
-    const payload = github.context.payload;
-    console.log(`The event payload: ${JSON.stringify(payload)}`);
+    // const githubToken = core.getInput('github-token') // Here you can get the github-token from action.yml
+    const payload = github.context.payload; // The context payload
+    console.log(`The event payload: ${JSON.stringify(payload)}`); // A simple console.log
 }
 catch (error) {
     core.setFailed(error.message);
